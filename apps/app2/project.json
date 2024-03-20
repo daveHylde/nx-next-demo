@@ -4,23 +4,5 @@
   "sourceRoot": "app2",
   "projectType": "application",
   "tags": [],
-  "// targets": "to see all targets run: nx show project app2 --web",
-  "targets": {
-    "build": {
-      "serve": {
-        "command": "next build",
-        "configurations": {
-          "production": {},
-          "development": {}
-        },
-        "defaultConfiguration": "production"
-      },
-      "command": "next build",
-      "configurations": {
-        "production": {},
-        "development": {}
-      },
-      "defaultConfiguration": "production"
-    }
-  }
+  "// targets": "to see all targets run: nx show project app2 --web"
 }

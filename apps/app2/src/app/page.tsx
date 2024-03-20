@@ -1,5 +1,5 @@
 import styles from './page.module.scss';
-import AuthComponent from 'libs/shared/src/lib/auth-component/auth-component';
+import { AuthComponent } from '@nx-test/shared';
 
 export default function Index() {
   /*
@@ -14,6 +14,7 @@ export default function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
+              Welcome to App2!!!
               <AuthComponent />
             </h1>
           </div>
